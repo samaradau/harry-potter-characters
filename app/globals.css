@@ -1,0 +1,47 @@
+:root {
+  --gryffindor-background: #1e90ff;
+  --gryffindor-color: #1e90ff;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.character {
+  display: flex;
+}
+
+.character__info {
+  padding: 10px;
+}
+
+.character__info {
+  background-color: rgb(255, 130, 130);
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+nav > li {
+  display: flex;
+  justify-self: center;
+  gap: 10;
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav__link--active {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
